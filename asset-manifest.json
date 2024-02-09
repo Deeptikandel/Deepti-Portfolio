@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Deepti-Portfolio/static/css/main.415abd6c.css",
+    "main.js": "/Deepti-Portfolio/static/js/main.eda08418.js",
+    "index.html": "/Deepti-Portfolio/index.html",
+    "main.415abd6c.css.map": "/Deepti-Portfolio/static/css/main.415abd6c.css.map",
+    "main.eda08418.js.map": "/Deepti-Portfolio/static/js/main.eda08418.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.415abd6c.css",
+    "static/js/main.eda08418.js"
+  ]
+}
