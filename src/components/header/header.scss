@@ -1,0 +1,27 @@
+@import "../../sassStyles/variables.scss";
+
+header {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .header-content {
+    width: 40%;
+    margin: 0 20px;
+    h1 {
+      color: $primary_Color;
+      font-weight: 600;
+      padding: 10px;
+    }
+    p {
+      padding: 10px;
+    }
+  }
+
+  svg {
+    height: 500px;
+    width: 500px;
+  }
+}

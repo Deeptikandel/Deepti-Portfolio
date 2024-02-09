@@ -1,0 +1,39 @@
+svg {
+  #hand {
+    animation: hand 0.2s ease-in-out infinite alternate;
+    transform-origin: bottom;
+  }
+  #leg {
+    animation: leg 0.2s ease-in-out infinite alternate;
+    transform-origin: bottom;
+  }
+  #code {
+    animation: code 1s infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  @keyframes code {
+    from {
+      transform: rotateZ(0deg);
+    }
+    to {
+      transform: rotateZ(360deg);
+    }
+  }
+  @keyframes hand {
+    from {
+      transform: rotateX(10deg);
+    }
+    to {
+      transform: rotateY(10deg);
+    }
+  }
+  @keyframes leg {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateX(30deg);
+    }
+  }
+}

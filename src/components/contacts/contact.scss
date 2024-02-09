@@ -1,0 +1,12 @@
+@import "../../sassStyles/variables.scss";
+
+.contact {
+  margin: 30px auto;
+  width: 80%;
+  .contact-form {
+    width: 70%;
+    margin: auto;
+    padding: 50px;
+    background-color: $card-color;
+  }
+}

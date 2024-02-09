@@ -1,0 +1,36 @@
+@import "../../sassStyles/variables.scss";
+
+.blogs {
+  margin: 30px auto;
+  width: 80%;
+
+  .blogs-wrapper {
+    display: grid;
+
+    .blog-card {
+      display: flex;
+      margin: 20px 10px;
+      padding: 10px;
+      background-color: $card-color;
+      img {
+        width: 40%;
+        box-shadow: 0.5rem 0.5rem 0 rgb(224, 221, 221);
+      }
+      .blog-content {
+        width: 55%;
+        margin-left: 25px;
+
+        h3 {
+          font-size: 1.5em;
+          text-align: left;
+          font-weight: 600;
+          text-transform: capitalize;
+        }
+
+        p {
+          font-size: 1.2em;
+        }
+      }
+    }
+  }
+}

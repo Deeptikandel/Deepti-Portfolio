@@ -1,0 +1,29 @@
+@import "../../sassStyles/variables.scss";
+
+.services {
+  margin: 30px auto;
+  width: 80%;
+
+  .service-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    flex-wrap: wrap;
+
+    h3 {
+      text-align: center;
+      margin: 16px;
+      font-weight: 600;
+    }
+    .service-card {
+      background-color: $card-color;
+      border-radius: 10px;
+      margin: auto;
+      width: 300px;
+
+      text-align: center;
+      padding: 20px;
+      margin-bottom: 8px;
+    }
+  }
+}

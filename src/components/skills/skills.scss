@@ -1,0 +1,22 @@
+@import "../../sassStyles/variables.scss";
+.tech-stack {
+  margin: 30px auto;
+  width: 80%;
+  // height: 25vh;
+
+  .tech-stack-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .fab {
+      width: 100px;
+      height: 100px;
+      background-color: $primary_Color;
+      border-radius: 50%;
+      font-size: 3rem;
+      text-align: center;
+      line-height: 100px;
+    }
+  }
+}
