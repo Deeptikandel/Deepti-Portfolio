@@ -1,4 +1,4 @@
-const navList = ["Home", "Services", "Skills", "Blogs", "Contacts"];
+const navList = ["Home", "About", "Services", "Skills", "Blogs", "Contacts"];
 const serviceData = [
   {
     title: "Service 1",
@@ -22,6 +22,9 @@ const skillIcon = [
   "fab fa-react",
   "fab fa-sass",
   "fab fa-css3",
+  "fab fa-php",
+  "fab fa-laravel",
+  "fab fa-node",
 ];
 const blogData = [
   {

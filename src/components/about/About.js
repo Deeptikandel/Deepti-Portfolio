@@ -1,6 +1,5 @@
 import React from "react";
 import "./about.scss";
-import Button from "react-bootstrap/Button";
 
 const About = () => {
   return (
@@ -25,11 +24,6 @@ const About = () => {
               This has allowed me to be ahead and deliver exceptional work on
               the projects I have worked on.
             </p>
-
-            <button>Hire Me</button>
-            <a href="" target="_blank">
-              <button>Resume</button>
-            </a>
           </div>
         </div>
       </div>

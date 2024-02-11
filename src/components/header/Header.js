@@ -8,13 +8,13 @@ const Header = () => {
       <header>
         <div className="header-content" id="home">
           <h1>Hello,</h1>
-          <p>
+          <h2>
             I'm{" "}
-            <span style={{ color: "#2f42eb", fontFamily: "Gerogian" }}>
+            <span style={{ color: "#66e2c5", fontFamily: "cursive" }}>
               DEEPTI
             </span>
-          </p>
-          <p>I'm a Software Developer and Designer. </p>
+          </h2>
+          <p>I'm a Software Developer and a Designer. </p>
         </div>
 
         <figure>
