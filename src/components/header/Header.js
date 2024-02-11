@@ -7,13 +7,14 @@ const Header = () => {
     <div className="container">
       <header>
         <div className="header-content" id="home">
-          <h1>Helloooo,</h1>
+          <h1>Hello,</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.{" "}
+            I'm{" "}
+            <span style={{ color: "#2f42eb", fontFamily: "Gerogian" }}>
+              DEEPTI
+            </span>
           </p>
+          <p>I'm a Software Developer and Designer. </p>
         </div>
 
         <figure>

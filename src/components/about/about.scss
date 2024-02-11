@@ -1,0 +1,64 @@
+@import "../../sassStyles/variables.scss";
+
+.about {
+  margin: 30px auto;
+  width: 80%;
+
+  .about-wrapper {
+    display: grid;
+
+    .about-card {
+      border-radius: 20px;
+      box-shadow: 0 3px 10px $secondary_color;
+      display: flex;
+      margin: 20px 10px;
+      padding: 10px;
+      justify-content: space-evenly;
+      background-color: $white-color;
+      img {
+        width: 40%;
+        box-shadow: 0.5rem 0.5rem 0 rgb(224, 221, 221);
+      }
+      .about-content {
+        width: 55%;
+        margin-left: 25px;
+
+        h3 {
+          font-size: 1.5em;
+          text-align: left;
+          font-weight: 600;
+          text-transform: capitalize;
+        }
+        h4 {
+          font-size: 1.2em;
+          text-align: left;
+          font-weight: 400;
+          text-transform: capitalize;
+          margin-bottom: 16px;
+        }
+
+        p {
+          color: $secondary_color;
+          font-family: calibri;
+          font-size: 1em;
+        }
+        button {
+          width: 120px;
+          height: 40px;
+          color: #ffffff;
+          outline: none;
+          border: none;
+          border-radius: 10px;
+          font-family: calibri;
+          font-size: 15px;
+          background-color: #262525;
+          margin: 16px 10px;
+        }
+        button:hover {
+          transform: scale(1.1);
+          transition: 0.1s;
+        }
+      }
+    }
+  }
+}
