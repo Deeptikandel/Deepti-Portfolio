@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Deepti-Portfolio/static/css/main.ff9f22bc.css",
-    "main.js": "/Deepti-Portfolio/static/js/main.7d44275d.js",
+    "main.css": "/Deepti-Portfolio/static/css/main.671f3a7e.css",
+    "main.js": "/Deepti-Portfolio/static/js/main.772fef60.js",
     "index.html": "/Deepti-Portfolio/index.html",
-    "main.ff9f22bc.css.map": "/Deepti-Portfolio/static/css/main.ff9f22bc.css.map",
-    "main.7d44275d.js.map": "/Deepti-Portfolio/static/js/main.7d44275d.js.map"
+    "main.671f3a7e.css.map": "/Deepti-Portfolio/static/css/main.671f3a7e.css.map",
+    "main.772fef60.js.map": "/Deepti-Portfolio/static/js/main.772fef60.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff9f22bc.css",
-    "static/js/main.7d44275d.js"
+    "static/css/main.671f3a7e.css",
+    "static/js/main.772fef60.js"
   ]
 }
