@@ -1,13 +1,13 @@
 @import "../../sassStyles/variables.scss";
 
-.blogs {
+.projects {
   margin: 30px auto;
   width: 80%;
 
-  .blogs-wrapper {
+  .projects-wrapper {
     display: grid;
 
-    .blog-card {
+    .project-card {
       display: flex;
       margin: 20px 10px;
       padding: 10px;
@@ -16,7 +16,7 @@
         width: 40%;
         box-shadow: 0.5rem 0.5rem 0 rgb(224, 221, 221);
       }
-      .blog-content {
+      .projects-content {
         width: 55%;
         margin-left: 25px;
 

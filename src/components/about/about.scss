@@ -2,7 +2,6 @@
 
 .about {
   margin: 30px auto;
-  height: auto;
   width: 80%;
 
   .about-wrapper {
@@ -23,6 +22,7 @@
       .about-content {
         width: 55%;
         margin-left: 25px;
+        padding: 1.8em;
 
         h3 {
           font-size: 1.5em;
@@ -35,7 +35,7 @@
           text-align: left;
           font-weight: 400;
           text-transform: capitalize;
-          margin-bottom: 16px;
+          margin-bottom: 1.8em;
         }
 
         p {

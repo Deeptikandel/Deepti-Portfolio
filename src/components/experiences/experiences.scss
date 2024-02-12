@@ -1,10 +1,9 @@
 @import "../../sassStyles/variables.scss";
 
-.services {
+.experiences {
   margin: 30px auto;
   width: 80%;
-
-  .service-wrapper {
+  .experience-wrapper {
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -15,12 +14,12 @@
       margin: 16px;
       font-weight: 600;
     }
-    .service-card {
+    .experience-card {
       background-color: $card-color;
       border-radius: 10px;
       margin: auto;
       width: 300px;
-
+      height: 300px;
       text-align: center;
       padding: 20px;
       margin-bottom: 8px;

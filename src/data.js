@@ -1,19 +1,19 @@
-const navList = ["Home", "About", "Services", "Skills", "Blogs", "Contacts"];
-const serviceData = [
+const navList = ["Home", "About", "Experiences", "Skills", "Projects"];
+const experienceData = [
   {
-    title: "Service 1",
-    description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui ipsam voluptatem quos quae fuga commodi magnam consequuntur",
+    title: "Fullstack Developer Trainee",
+    company: "Integrify Oy",
+    date: "April 2022 to September 2022",
   },
   {
-    title: "Service 2",
-    description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui ipsam voluptatem quos quae fuga commodi magnam consequuntur",
+    title: "Designer",
+    company: "Bodhichitta Healthcare",
+    date: "March 2021 to October 2021",
   },
   {
-    title: "Service 3",
-    description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui ipsam voluptatem quos quae fuga commodi magnam consequuntur",
+    title: "Junior Software Developer",
+    company: "Shipit Oy Ab",
+    date: "September 2022 to December 2023",
   },
 ];
 const skillIcon = [
@@ -26,7 +26,7 @@ const skillIcon = [
   "fab fa-laravel",
   "fab fa-node",
 ];
-const blogData = [
+const projectsData = [
   {
     title: "Blog 1",
     src: "assets/images/img-1.jpg",
@@ -60,4 +60,4 @@ const socialIcon = [
   },
   { link: "https://github.com/Deeptikandel", iconClass: "fab fa-github" },
 ];
-export { navList, serviceData, skillIcon, blogData, socialIcon };
+export { navList, experienceData, skillIcon, projectsData, socialIcon };

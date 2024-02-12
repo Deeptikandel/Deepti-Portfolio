@@ -11,12 +11,15 @@ const About = () => {
             <h2 className="child about-title">About Me</h2>
             <h3 className="child about-subtitle">Developer and Designer</h3>
             <p className="child about-description">
+              {" "}
+              <br />
               Hello, <br />
               My name is Deepti Kandel. Passionate about building feasible and
               user-friendly websites and applications coupled with strong
               learning skills have resulted in increased overall productivity
               and creative skills in me.{" "}
             </p>
+            <br />
             <p>
               {" "}
               In addition to my knowledge base, I actively seek out to new
