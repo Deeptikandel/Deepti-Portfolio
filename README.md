@@ -1,3 +1,6 @@
+# Deepti Portfolio
+
+Demo link of the page:  [https://deeptikandel.github.io/Portfolio/](https://deeptikandel.github.io/Deepti-Portfolio/)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
