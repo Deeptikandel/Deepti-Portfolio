@@ -1,0 +1,10 @@
+@import "../../sassStyles/variables.scss";
+
+.sticky-progress-bar {
+  position: fixed;
+  top: 56px;
+  width: 100%;
+  height: 4px;
+  z-index: 1000;
+  color: $primary_Color;
+}

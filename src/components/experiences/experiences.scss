@@ -3,26 +3,24 @@
 .experiences {
   margin: 30px auto;
   width: 80%;
-  .experience-wrapper {
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-    flex-wrap: wrap;
 
-    h3 {
-      text-align: center;
-      margin: 16px;
-      font-weight: 600;
+  .experience-wrapper {
+    color: rgb(45, 42, 42);
+    font-family: calibri;
+  }
+  h3 {
+    padding-top: 0.25em;
+  }
+  .vertical-timeline-element-content {
+    box-shadow: 0 0.25rem 0.5rem 0 rgb(0, 0, 0, 0.25),
+      0 0.4rem 1.25rem 0 rgb(0, 0, 0, 0.15) !important;
+    padding: 2em 3em !important;
+
+    p {
+      margin: 1.5em 0 2em 0;
     }
-    .experience-card {
-      background-color: $card-color;
-      border-radius: 10px;
-      margin: auto;
-      width: 300px;
-      height: 300px;
-      text-align: center;
-      padding: 20px;
-      margin-bottom: 8px;
+    a {
+      background-color: #39a88e;
     }
   }
 }

@@ -15,10 +15,23 @@ const Projects = () => {
 
               <div className="projects-content">
                 <h3 className="child projects-title">{project.title}</h3>
+                <br />
                 <p className="child projects-description">
                   {project.description}
                 </p>
-                <Button variant="outline-success">Read more</Button>
+                <br />
+                <p className="child projects-tech-stack">{project.techStack}</p>
+                <br />
+                <a
+                  className="btn btn-success btn-lg "
+                  href={project.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  key={project.iconClass}
+                >
+                  <i className={project.iconClass}></i>
+                  <span className="m-3">View Demo</span>
+                </a>
               </div>
             </div>
           );
