@@ -8,9 +8,7 @@ const Skills = () => {
       <h2 className="subtitle">Tech Stack</h2>
       <div className="tech-stack-wrapper">
         {skillIcon.map((skill) => {
-          return (
-            <i className={skill} role="img" aria-hidden="true" key={skill}></i>
-          );
+          return <img src={skill.src} alt={skill.altText} />;
         })}
       </div>
     </section>

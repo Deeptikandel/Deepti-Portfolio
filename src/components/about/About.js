@@ -1,12 +1,13 @@
 import React from "react";
 import "./about.scss";
+import myPhoto from "../../assets/images/my-photo.jpg";
 
 const About = () => {
   return (
     <section className="about" id="about">
       <div className="about-wrapper">
         <div className="about-card">
-          <img src="assets/images/my-photo.jpg" />
+          <img src={myPhoto} alt="my photo" />
           <div className="about-content">
             <h2 className="child about-title">About Me</h2>
             <h3 className="child about-subtitle">Developer and Designer</h3>

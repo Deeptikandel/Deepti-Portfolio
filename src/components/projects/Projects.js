@@ -11,7 +11,7 @@ const Projects = () => {
         {projectsData.map((project) => {
           return (
             <div className="project-card" key={project.title}>
-              <img src={project.src} alt={project.altText} />
+              <img src={project.path} alt={project.altText} />
 
               <div className="projects-content">
                 <h3 className="child projects-title">{project.title}</h3>

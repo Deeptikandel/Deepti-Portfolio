@@ -20,7 +20,7 @@ const Experiences = () => {
                 date={timeline.date}
                 dateClassName="date"
                 iconStyle={{
-                  background: "#66e2c5",
+                  background: "#2f42eb",
                   color: "#fff",
                   textAlign: "center",
                   lineHeight: "50px",

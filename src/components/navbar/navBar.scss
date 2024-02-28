@@ -1,0 +1,19 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/navbar";
+@import "../../sassStyles/variables.scss";
+
+.navbar {
+  background-color: #ffff;
+  box-shadow: 0 3px 10px #969291;
+  position: sticky;
+  .nav-link {
+    color: #000;
+    margin-right: 30px;
+    &.active {
+      color: $white-color;
+      background-color: $primary_Color;
+    }
+  }
+}

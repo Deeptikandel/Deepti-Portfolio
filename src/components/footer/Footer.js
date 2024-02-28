@@ -6,6 +6,7 @@ const Footer = () => {
   return (
     <footer>
       <h3>Connect with me</h3>
+      <p>Get to know me and my works by connecting with me. Enjoy my work.</p>
 
       <div className="social-icons">
         {socialIcon.map((icon) => {
@@ -21,7 +22,7 @@ const Footer = () => {
           );
         })}
       </div>
-      <p className="copyright">&copy; Copyright 2021</p>
+      <p className="copyright">&copy; Copyright 2024</p>
     </footer>
   );
 };

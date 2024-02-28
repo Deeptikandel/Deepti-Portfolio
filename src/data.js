@@ -1,20 +1,37 @@
+//Project images
+import project1 from "./assets/images/img-1.jpg";
+import project2 from "./assets/images/img-2.jpg";
+import project3 from "./assets/images/img-3.jpg";
+
+//icon images
+import htmlIcon from "./assets/icons/html-5.svg";
+import cssIcon from "./assets/icons/css3.svg";
+import javascriptIcon from "./assets/icons/javascript.svg";
+import reactIcon from "./assets/icons/react.svg";
+import phpIcon from "./assets/icons/php.svg";
+import laravelIcon from "./assets/icons/laravel.svg";
+import gitIcon from "./assets/icons/git.svg";
+import figmaIcon from "./assets/icons/figma.svg";
+import bootstrapIcon from "./assets/icons/bootstrap.svg";
+
 const navList = ["Home", "About", "Experiences", "Skills", "Projects"];
 
 const skillIcon = [
-  "fab fa-js",
-  "fab fa-html5",
-  "fab fa-react",
-  "fab fa-sass",
-  "fab fa-css3",
-  "fab fa-php",
-  "fab fa-laravel",
-  "fab fa-node",
+  { src: htmlIcon, altText: "html5" },
+  { src: cssIcon, altText: "css3" },
+  { src: javascriptIcon, altText: "javascript" },
+  { src: reactIcon, altText: "react" },
+  { src: phpIcon, altText: "php" },
+  { src: laravelIcon, altText: "laravel" },
+  { src: gitIcon, altText: "git" },
+  { src: figmaIcon, altText: "figma" },
+  { src: bootstrapIcon, altText: "bootstrap" },
 ];
 const projectsData = [
   {
     title: "Responsive website",
-    src: "assets/images/img-1.jpg",
-    altText: "Resposiveness",
+    path: project1,
+    altText: "Resposivenesssss",
     description:
       "A responsive web app design with consideration to Design thinking. The color pallete has been created according to the standard color theory.",
     techStack: "Tech Stack: Javascript, Html5, CSS",
@@ -23,22 +40,26 @@ const projectsData = [
   },
   {
     title: "Project 2",
-    src: "assets/images/img-2.jpg",
+    path: project2,
     altText: "a laptop ",
-    description: "",
+    description:
+      "A responsive web app design with consideration to Design thinking. The color pallete has been created according to the standard color theory.",
+    techStack: "Tech Stack: Javascript, Html5, CSS",
+    link: "https://deeptikandel.github.io/ResponsiveWeb_Project/",
+    iconClass: "fa fa-globe",
   },
   {
     title: "Projects 3",
-    src: "assets/images/img-3.jpg",
+    path: project3,
     altText: "a working table",
-    description: "",
+    description:
+      "A responsive web app design with consideration to Design thinking. The color pallete has been created according to the standard color theory.",
+    techStack: "Tech Stack: Javascript, Html5, CSS",
+    link: "https://deeptikandel.github.io/ResponsiveWeb_Project/",
+    iconClass: "fa fa-globe",
   },
 ];
 const socialIcon = [
-  {
-    link: "https://www.instagram.com/kandeldeepti",
-    iconClass: "fab fa-instagram",
-  },
   {
     link: "https://www.linkedin.com/in/deeptikandel/",
     iconClass: "fab fa-linkedin",

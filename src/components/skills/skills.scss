@@ -1,25 +1,33 @@
 @import "../../sassStyles/variables.scss";
 .tech-stack {
+  display: grid;
+  justify-content: center;
   margin: 30px auto;
   width: 80%;
-  // height: 25vh;
+  margin-bottom: 1rem;
 
   .tech-stack-wrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
+    max-width: 600px;
 
-    .fab {
+    img {
       width: 100px;
       height: 100px;
-      background-color: $primary_Color;
-      border-radius: 50%;
+      //background-color: $white-color;
+      //border-radius: 50%;
       font-size: 3rem;
       text-align: center;
       line-height: 100px;
+      //box-shadow: 0 3px 10px $secondary_color;
+      background-color: #fff;
+      border-radius: 11px;
       box-shadow: 0 3px 10px $secondary_color;
+      padding: 25px;
+      margin: 10px;
     }
-    .fab:hover {
+    img:hover {
       transform: scale(1.1);
       transition: 0.1s;
     }
